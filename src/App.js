@@ -2,7 +2,7 @@ import React from 'react';
 // import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
 // import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 // import { ReactComponent as IconGithub } from './assets/icons/github.svg';
-import { ReactComponent as IconSTW } from './assets/icons/stw.png';
+//import { ReactComponent as IconSTW } from './assets/icons/stw.png';
 import "./App.css";
 
 class App extends React.Component {
@@ -11,7 +11,7 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href="."><IconSTW className="icon" /></a>
+            <a href="."><img src="./stw.png" alt="logo" height="75" width="75"/></a>
           </div>
           <div className="social">
             {/* <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">

@@ -22,3 +22,5 @@ yarn-error.log*
 
 # ide settings
 .idea
+package-lock.json
+yarn.lock
